@@ -1,11 +1,11 @@
 import './style.css'
 
-alert('1sfsds sdf234545')
-console.log('пишет в косоль')
+// alert('1sfsds sdf234545')
+// console.log('пишет в косоль')
 
-let name = 'John'
-let admin = name
-alert(admin)
+// let name = 'John'
+// let admin = name
+// alert(admin)
 
 // Запрашивать данные у пользователя необходимо с помощью prompt(), а выводить результат с помощью alert().
 // 1 Запросите у пользователя число, возведите это число во 2-ю степень и выведите на экран.
@@ -49,3 +49,92 @@ alert(admin)
 // и выведите, сколько часов и минут осталось до следующего
 // дня.
 // let input = parseFloat(prompt("Введите время, часы минуты "))
+
+
+
+
+
+// Запросите у пользователя его имя и выведите в ответ:
+// «Привет, его имя!».
+// let input = (prompt("Ваше имя?"))
+// alert(`Привет, ${input}`)
+
+// Запросите у пользователя год его рождения, посчитайте,
+// сколько ему лет и выведите результат. Текущий год укажите
+// в коде как константу.
+// let input = parseInt(prompt(`Год вашего рождения?`))
+// alert(`Вам ${2023-input} лет`)
+
+// let company = prompt(`Какой официальное название JS?`);
+// if (company == `ECMAScript`) {
+//     alert(`Верно`);
+// } else {
+//     alert(`Неправильно`);
+// }
+
+// let number = prompt('Введите число', '');
+
+// if (number > 0) {
+//   alert( '1' );
+// } else if (number < 0) {
+//   alert( '-1' );
+// } else {
+//   alert( '0' );
+// }
+
+
+// let result = (a + b < 4) ? 'Мало': 'Много';
+
+// let message = (login == 'Сотрудник') ? 'Привет':
+// (login == 'Директор') ? 'Здравствуйте':
+// (login == '') ? 'Нет логина':
+// '';
+
+// Запросить у пользователя его возраст и проверить кор-
+// ректность введенных данных (0–120 лет).
+
+// let number  = +(prompt(`Введите число`) as string)
+
+// if (number > 0) {
+//     if (number < 120) {
+//         alert(`ок`);
+//     } else {
+//         alert(`не ок`);
+//     } 
+// } else {
+//     alert(`не ок`);
+// }
+
+
+// Напишите if..else, соответствующий следующему switch:
+
+let name = prompt(`What browser do you have?`)
+if (name == `Edge`) {
+    alert(`You've got the Edge!`);
+   } else if (name == `Chrome`) {
+    alert(`Okay we support these browsers too`);
+        } else if (name == `Firefox`) {
+    alert(`Okay we support these browsers too`);
+    } else if (name == `Safari`) {
+    alert(`Okay we support these browsers too`);
+    } else if (name == `Opera`) {
+    alert(`Okay we support these browsers too`);
+    }
+
+
+
+// switch (browser) {
+//   case 'Edge':
+//     alert( "You've got the Edge!" );
+//     break;
+
+//   case 'Chrome':
+//   case 'Firefox':
+//   case 'Safari':
+//   case 'Opera':
+//     alert( 'Okay we support these browsers too' );
+//     break;
+
+//   default:
+//     alert( 'We hope that this page looks ok!' );
+// }
