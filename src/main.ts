@@ -111,15 +111,15 @@ import './style.css'
 let name = prompt(`What browser do you have?`)
 if (name == `Edge`) {
     alert(`You've got the Edge!`);
-   } else if (name == `Chrome`) {
+        } else if (name == `Chrome`) {
     alert(`Okay we support these browsers too`);
         } else if (name == `Firefox`) {
     alert(`Okay we support these browsers too`);
-    } else if (name == `Safari`) {
+        } else if (name == `Safari`) {
     alert(`Okay we support these browsers too`);
-    } else if (name == `Opera`) {
+        } else if (name == `Opera`) {
     alert(`Okay we support these browsers too`);
-    }
+    } 
 
 
 
